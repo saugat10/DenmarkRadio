@@ -8,10 +8,10 @@ namespace DenmarkRadio.Managers
 
         private static readonly List<Music> Data = new List<Music>
         {
-            new Music { Id = _nextId, Artist = "The Script", Duration = 300, Title = "Hall of Fame", PublicationYear= 2012},
-            new Music { Id = _nextId, Artist = "Denmark", Duration = 210, Title = "Zealand", PublicationYear= 2010},
-            new Music { Id = _nextId, Artist = "Andres", Duration = 120, Title = "JavaScript", PublicationYear= 2022},
-            new Music { Id = _nextId, Artist = "The Script", Duration = 180, Title = "Paint the town green", PublicationYear= 2011}
+            new Music { Id = _nextId++, Artist = "The Script", Duration = 300, Title = "Hall of Fame", PublicationYear= 2012},
+            new Music { Id = _nextId++, Artist = "Denmark", Duration = 210, Title = "Zealand", PublicationYear= 2010},
+            new Music { Id = _nextId++, Artist = "Andres", Duration = 120, Title = "JavaScript", PublicationYear= 2022},
+            new Music { Id = _nextId++, Artist = "The Script", Duration = 180, Title = "Paint the town green", PublicationYear= 2011}
         };
 
         public List<Music> GetAll()
